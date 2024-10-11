@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab ITF-14</title>
+  <link rel="stylesheet" href="lab_14.css">
+	<script src="lab_14.js"></script>
+</head>
+
+<body>
+  <h1>
+    <a class="username" id="username" href="https://github.com/KhanunKup" target="_blank" style="text-decoration: none;">
+      Thitiwut Khrutchuen it67070044
+    </a> Phone Book
+  </h1>
+
+  <div class="background-img" id="background-img">
+    <div class="notification-dot">1</div>
+  </div>
+
+  <div class="container-username-change">
+    <div>Set the Username</div>
+    <input type="text" class="input-box" id="set-user-button" placeholder="Enter Username">
+    <button onclick="changeUser()">SET</button>
+  </div>
+
+  <div class="container-profile-change">
+    <div>Set the profile image URL</div>
+    <input type="text" class="input-box" id="set-user-img-button" placeholder="Enter Image URL">
+    <button onclick="changeImg()">SET</button>
+  </div>
+
+  <h3>Phone Number List</h3>
+
+  <div class="container-phone-data">
+    <input id="nameInput" class="input-box" type="text" placeholder="Name">
+    <input id="phoneInput" class="input-box" type="text" placeholder="Tel">
+    <button onclick="addContact()" style="margin-right: 10px;">ADD</button>
+    <button onclick="exportToCSV()">EXPORT</button>
+  </div>
+
+  <table id="contactTable" border="1">
+    <tr>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Phone Number</th>
+    </tr>
+  </table>
+
+  <script>
+  </script>
+</body>
+</html>

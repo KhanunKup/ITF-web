@@ -1,0 +1,101 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+}
+
+.username {
+	color: black;
+}
+
+.username:hover {
+	color: blue;
+}
+
+.background-img {
+	background-image: url(https://i.pinimg.com/736x/7c/3a/70/7c3a701c1f86936a70a450f68c3e75c4.jpg);
+	width: 183px;
+	height:183px;
+	border-radius: 100%;
+	position: relative;
+	background-size: cover; 
+	background-position: center;
+	margin-bottom: 15px;
+}
+
+.notification-dot {
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 30px;
+	bottom: 0px;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-username-change {
+	display: flex;
+	font-size: 14px;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+.container-profile-change {
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+}
+
+.input-box {
+	border: none;
+	border-radius: 5px;
+	padding-left: 8px;
+	width: 250px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: rgb(214, 214, 214);
+}
+
+.input-box::placeholder {
+	color: grey;
+}
+
+button {
+	background-color: rgb(51, 120, 231);
+	color: white;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	border-radius: 6px;
+	transition: 0.15s;
+}
+
+button:hover {
+	background-color: rgb(10, 45, 102);
+}
+
+table {
+	margin-top: 30px;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 725px;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
